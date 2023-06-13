@@ -1,0 +1,17 @@
+Steps to Run the Script:
+
+1. Install the necessary libraries in Jupyter notebook environment, which are listed below.
+- pyspark (!pip install pyspark)
+- networkX (!pip install networkx)
+- osmnx (!pip install osmnx) --> openstreetmapsAPI
+- pymongo (localhost:27017)  (!pip install pymongo)
+- 
+2. Loading the data from osmnx (OpenStreetMapsAPI) to MongoDB with a database named Database and the collections are named after each city. 
+3. All the roadway coordinates are stored in the MongoDB between all the city's highways
+4. Using all the coordinates from the MongoDB database, build each city's roadway graph network. 
+5. Using NetworkX found the optimal path between the considered cities.
+
+
+
+
+
